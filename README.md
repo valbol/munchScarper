@@ -46,6 +46,8 @@ body: { "url": "https://example.com" } - engage the scraper
 ## Data verification
 
 docker exec -it munch-mongo-1 mongosh scraperdb
+show collections
+db.summaries.find().pretty()
 
 ## Unit Testing
 
